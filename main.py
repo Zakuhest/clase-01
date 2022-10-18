@@ -66,7 +66,7 @@ while start:
       op = input("Escribir la operación a realizar (nombre/signo)): ").lower()
   
       while op not in ("sumar", "+", "restar", "-", "multiplicar", "*", "dividir", "/",
-                       "potenciar", "**", "potencia recursiva", "recursiva"):
+                       "potenciar", "**", "potencia recursiva", "recursiva", "recursivo"):
   
           op = input("Escribir nuevamente la operación a realizar (nombre/signo)): ").lower()
   
@@ -85,7 +85,7 @@ while start:
       if op == "potenciar" or op == "**":
           potenciar(a, b)
   
-      if op == "potencia recursiva" or op == "recursiva":
+      if op == "potencia recursiva" or op == "recursiva" or op == "recursivo":
           print("\nEl resultado recursivo es:", potencia_recursiva(a, b))
   
       q = input("\nDesea realizar otra operación? (y/n): ").lower()
