@@ -37,9 +37,9 @@ start = True
 resultado = 0
 
 print("""
-==================
-Calculadora básica
-=================="""
+|==================|
+|Calculadora básica|
+|==================|"""
       )
 
 while start:
